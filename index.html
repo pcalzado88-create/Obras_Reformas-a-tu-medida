@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed": "#001d31", "on-primary-fixed": "#410002", "surface-variant": "#e3e1ec", "on-primary": "#ffffff", "surface-container-high": "#e9e7f2", "surface-container-low": "#f4f2fd", "primary": "#a1000c", "surface-bright": "#fbf8ff", "on-secondary-fixed-variant": "#47464a", "primary-container": "#c81e1e", "surface-dim": "#dad9e4", "on-error-container": "#93000a", "tertiary-container": "#006ca4", "inverse-surface": "#2f3038", "surface-container-lowest": "#ffffff", "secondary": "#5f5e61", "surface-container": "#efecf8", "outline": "#906f6b", "secondary-fixed": "#e4e1e6", "tertiary-fixed-dim": "#93ccff", "on-primary-container": "#ffddd9", "on-surface": "#1a1b23", "on-tertiary": "#ffffff", "on-secondary-container": "#656467", "on-secondary-fixed": "#1b1b1e", "surface-tint": "#bc1317", "surface": "#fbf8ff", "on-error": "#ffffff", "outline-variant": "#e5bdb8", "error": "#ba1a1a", "on-tertiary-fixed-variant": "#004b73", "secondary-container": "#e4e1e6", "on-surface-variant": "#5c403c", "on-secondary": "#ffffff", "on-tertiary-container": "#d2e8ff", "inverse-on-surface": "#f1effa", "tertiary": "#00537f", "inverse-primary": "#ffb4ab", "surface-container-highest": "#e3e1ec", "secondary-fixed-dim": "#c8c5ca", "primary-fixed-dim": "#ffb4ab", "tertiary-fixed": "#cce5ff", "on-background": "#1a1b23", "error-container": "#ffdad6", "primary-fixed": "#ffdad6", "background": "#fbf8ff", "on-primary-fixed-variant": "#93000a" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin-desktop": "4rem", "space-xs": "0.5rem", "space-md": "1rem", "space-4xl": "6rem", "margin-mobile": "1.25rem", "space-2xs": "0.25rem", "margin-tablet": "2.5rem", "space-5xl": "8rem", "space-xl": "2rem", "space-2xl": "3rem", "space-3xl": "4rem", "space-sm": "0.75rem", "max-width": "1280px", "space-lg": "1.5rem", "gutter": "1.5rem" }, "fontFamily": { "headline-md": [ "Plus Jakarta Sans" ], "display-lg": [ "Plus Jakarta Sans" ], "headline-xl": [ "Plus Jakarta Sans" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "title-md": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ] }, "fontSize": { "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "700" } ], "display-lg-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "700" } ], "label-sm": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" } ], "title-md": [ "18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-lg": [ "18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "label-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "body-md": [ "16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><div class="fixed top-0 left-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm border-b border-surface-variant"><div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop h-10 flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-primary">verified</span><span class="truncate uppercase tracking-wider">Reformas integrales en Málaga · Viviendas, negocios y comunidades</span></div><div class="hidden sm:flex items-center gap-space-lg"><div class="inline-flex items-center gap-space-2xs bg-surface-container-lowest px-space-xs py-0.5 rounded-full shadow-[0_1px_3px_rgba(18,19,22,0.04)]"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface uppercase">Respuesta rápida</span></div><a class="inline-flex items-center gap-space-2xs text-on-surface-variant hover:text-on-surface transition-colors" href="https://wa.me/34691810471" rel="noopener" target="_blank"><span class="material-symbols-outlined text-[16px]">chat</span><span>WhatsApp</span></a><a class="inline-flex items-center gap-space-2xs text-on-surface font-semibold tracking-normal hover:text-primary transition-colors" href="tel:691810471"><span class="material-symbols-outlined text-[16px] text-primary">call</span><span>691 81 04 71</span></a></div></div></div><header class="bg-surface-container-lowest/95 backdrop-blur-xl border-b border-surface-variant"><div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop h-20 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo Málaga Colors Multiservicios" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA0B2iD8r6MWkJzX201AcGaOWekt277wQjxDYF-ggh2XxXAYaDCIH00qlnNV1e5yYROgUPEBKUG_J4fDJAUHBBiHT40giP5tSTKCrKHWaSu4CtttCWYSp-7pvl4g5it8et37zEOnk095R1WxYqjKmPt0Sgv_KnVS8T9me6OwJf40U6O_Dfq1jnW6UnOIPF94ieVzRs5vOe2zfu5BYjrGFYLR7ali2QFry-UQgslet593soSg2LQF86"/><div class="flex flex-col"><span class="font-title-md text-title-md text-on-surface tracking-tight leading-none uppercase font-bold">Málaga Colors</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-widest uppercase text-[9px] mt-0.5">Multiservicios · Reformas</span></div></div><nav class="hidden xl:flex items-center gap-space-lg h-full" data-active-classes="text-primary font-semibold border-b-2 border-primary"><a aria-current="page" class="tracking-wider uppercase transition-colors h-full flex items-center text-primary font-semibold border-b-2 border-primary" data-path="reformas-integrales" href="#">Reformas integrales</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md tracking-wider uppercase transition-colors h-full flex items-center" data-path="cocinas-y-banos" href="#">Cocinas y baños</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md tracking-wider uppercase transition-colors h-full flex items-center" data-path="negocios" href="#">Negocios</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md tracking-wider uppercase transition-colors h-full flex items-center" data-path="fachadas-y-comunidades" href="#">Fachadas y comunidades</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md tracking-wider uppercase transition-colors h-full flex items-center" data-path="proyectos" href="#">Proyectos</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md tracking-wider uppercase transition-colors h-full flex items-center" data-path="opiniones" href="#">Opiniones</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md tracking-wider uppercase transition-colors h-full flex items-center" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-sm"><a class="inline-flex items-center justify-center bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider px-space-lg h-11 rounded hover:bg-primary transition-colors shadow-[0_1px_3px_rgba(18,19,22,0.04)] focus:outline-none focus:ring-2 focus:ring-primary-container focus:ring-offset-2" href="#presupuesto"><span class="material-symbols-outlined text-[18px] mr-space-2xs">assignment</span>Pide tu presupuesto</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header></div><main class="w-full pt-[120px] pb-24 md:pb-0 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="relative w-full -mt-[120px] pt-[140px] pb-24 lg:pb-32 overflow-hidden">
+<!-- Hero Background Image & High Contrast Gradient Overlay -->
+<div class="absolute inset-0 z-0">
+<img alt="Reforma integral luminosa con microcemento y madera en Málaga" class="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfruf35dBhR0L1A-qR6OmKYuKVJTWEovIQav-qdEXKbt-m_mU-Tv-5zu2ZI57uTUrVLuoZnevaKy1HK4VObVfBQBC95Nmz83QGfRcwVBK-CtkjD64wRUO5ZSsGWC0cJW_u6ufudcC28-aHmoAGRad3_glw-qI09au8H2aibHWnSRuPo8sUCdi5Jh7Ozdqe5CtH_zUNqoUMxvZQcXYo6eKFXdsTz-YUA4ZGeN53rypYX2Izb92N4xZN"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-surface/90 via-on-surface/75 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface via-transparent to-on-surface/40"></div>
+</div>
+<div class="relative z-10 max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop pt-12 lg:pt-20">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Text & CTAs (Cols 1-8) -->
+<div class="lg:col-span-8 flex flex-col items-start text-white">
+<!-- Antetítulo badge -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1.5 rounded-full bg-surface-container-lowest/15 backdrop-blur-md mb-space-lg">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="w-2 h-2 rounded-full bg-primary-container -ml-space-xs"></span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-white">Empresa de reformas en Málaga</span>
+</div>
+<!-- Titular principal arquitectónico -->
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-white font-bold tracking-tight mb-space-md max-w-2xl">
+            Tu reforma, bien pensada y bien ejecutada.
+          </h1>
+<!-- Subtítulo equilibrado -->
+<p class="font-body-lg text-body-lg text-secondary-fixed max-w-xl mb-space-2xl leading-relaxed">
+            Un único equipo para transformar tu vivienda o negocio, con planificación rigurosa, acabados cuidados y acompañamiento técnico de principio a fin.
+          </p>
+<!-- Acciones principales -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md w-full sm:w-auto mb-space-2xl">
+<a class="inline-flex items-center justify-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider px-space-xl h-14 rounded transition-all shadow-xl hover:shadow-2xl hover:scale-[1.01] active:scale-[0.99]" href="#contacto-presupuesto">
+<span>Solicitar visita y presupuesto</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 backdrop-blur-md text-white font-label-md text-label-md uppercase tracking-wider px-space-lg h-14 rounded transition-colors" href="#proyectos-reales">
+<span class="material-symbols-outlined text-[18px]">photo_library</span>
+<span>Ver proyectos reales</span>
+</a>
+</div>
+<!-- Micropruebas de confianza -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-lg w-full max-w-2xl">
+<div class="flex items-center gap-space-xs text-secondary-fixed">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">engineering</span>
+<span class="font-label-md text-label-md text-white">Equipo multidisciplinar</span>
+</div>
+<div class="flex items-center gap-space-xs text-secondary-fixed">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">receipt_long</span>
+<span class="font-label-md text-label-md text-white">Presupuesto detallado</span>
+</div>
+<div class="flex items-center gap-space-xs text-secondary-fixed">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">fact_check</span>
+<span class="font-label-md text-label-md text-white">Seguimiento de obra</span>
+</div>
+</div>
+</div>
+<!-- Tarjeta Flotante Prueba Social (Cols 9-12) -->
+<div class="lg:col-span-4 flex justify-start lg:justify-end">
+<div class="w-full max-w-sm bg-surface-container-lowest/95 backdrop-blur-xl p-space-xl rounded-xl shadow-2xl text-on-surface relative">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-0.5 text-amber-500">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-bold">Google Reviews</span>
+</div>
+<div class="flex items-baseline gap-space-xs mb-space-xs">
+<span class="font-headline-xl text-headline-xl font-bold text-on-surface tracking-tight">4,7</span>
+<span class="font-title-md text-title-md text-secondary font-medium">/ 5,0</span>
+</div>
+<p class="font-title-md text-title-md font-semibold text-on-surface mb-space-2xs">Más de 75 reseñas reales</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">Propietarios, arquitectos y negocios plenamente satisfechos en Málaga capital y Costa del Sol.</p>
+<div class="flex items-center gap-space-sm pt-space-md bg-surface-container-low p-space-sm rounded">
+<span class="material-symbols-outlined text-primary text-[24px]">verified</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface uppercase font-bold">Garantía Escrita</span>
+<span class="font-body-sm text-body-sm text-secondary text-xs">Sin sobrecostes imprevistos</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. FRANJA DE BENEFICIOS INMEDIATOS -->
+<section class="w-full bg-surface-container-lowest py-space-3xl">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Beneficio 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[26px]">person_check</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-semibold text-on-surface mb-space-2xs">Un solo interlocutor</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sin lidiar con gremios por separado; una sola persona técnica coordina albañilería, instalaciones y carpintería.</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary-container font-bold uppercase tracking-wider mt-space-md">01 · Coordinación directa</span>
+</div>
+<!-- Beneficio 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[26px]">event_available</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-semibold text-on-surface mb-space-2xs">Plazos y fases claros</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cronograma cerrado por fases para que sepas en todo momento en qué punto exacto se encuentra tu proyecto.</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary-container font-bold uppercase tracking-wider mt-space-md">02 · Compromiso temporal</span>
+</div>
+<!-- Beneficio 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[26px]">award_star</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-semibold text-on-surface mb-space-2xs">Acabados que duran</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Materiales certificados de primera línea y mano de obra cualificada cuidando cada milímetro y junta de dilatación.</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary-container font-bold uppercase tracking-wider mt-space-md">03 · Estándar constructivo</span>
+</div>
+<!-- Beneficio 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary-container mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[26px]">cleaning_services</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm font-semibold text-on-surface mb-space-2xs">Tu casa protegida y limpia</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Protocolos estrictos de forrado de rellanos, zonas comunes y limpieza constante al finalizar cada jornada.</p>
+</div>
+<span class="font-label-sm text-label-sm text-primary-container font-bold uppercase tracking-wider mt-space-md">04 · Respeto vecinal</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SECCIÓN 'REFORMAS QUE RESUELVEN TU DÍA A DÍA' -->
+<section class="w-full py-space-4xl bg-surface">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
+<!-- Columna Izquierda: Copy & Especialidades -->
+<div class="lg:col-span-6 flex flex-col">
+<div class="inline-flex items-center gap-space-2xs mb-space-sm">
+<span class="w-1.5 h-6 bg-primary-container rounded-full"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Metodología Málaga Colors</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-on-surface tracking-tight mb-space-md">
+            De una idea a un espacio que funciona para ti.
+          </h2>
+<p class="font-body-lg text-body-lg text-secondary mb-space-lg leading-relaxed">
+            En Málaga Colors nos encargamos de todo: albañilería estructural, fontanería, electricidad certificada, climatización por conductos, carpintería a medida, pintura técnica, microcemento e interiorismo funcional. Tú disfrutas del resultado, nosotros resolvemos la complejidad técnica.
+          </p>
+<!-- Lista de especialidades -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-space-lg gap-y-space-sm mb-space-xl">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Albañilería y tabiquería seca</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Fontanería y desagües ocultos</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Boletines eléctricos y LED</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Climatización y aerotermia</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Carpintería de aluminio y madera</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Microcemento y solería porcelánica</span>
+</div>
+</div>
+<div>
+<a class="inline-flex items-center gap-space-xs bg-inverse-surface hover:bg-on-surface text-inverse-on-surface font-label-md text-label-md uppercase tracking-wider px-space-xl h-12 rounded transition-colors" href="#contacto-presupuesto">
+<span>Cuéntanos tu proyecto</span>
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+</a>
+</div>
+</div>
+<!-- Columna Derecha: Foto Cocina con Badge Flotante -->
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-high aspect-[4/3]">
+<img alt="Cocina abierta al salón con isla de cuarzo y mobiliario en madera natural en Málaga" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd5b3tAT8ONI8mf-bgFOQvPDpZ8_3Ksiyv8gGoCToO32Z45V2340vaFuEvRoU2q4ZLDTk85goLkh6ETnd3pyq6k8xHA2HpULgIhCIOUSty51bu1FBeaXT4svByBUhw9W1_fM-Oj9-lWka4e6UK2d31K0mIo781o4CuehCi7nkvgN5K9j2NqjRypasvNHRcfJtsRmRTbDHnDqCa9xTWDN7PQED1g1onFxqQSsCEh_5F3-VZ_T5Ya-QM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/50 via-transparent to-transparent"></div>
+<!-- Inset Badge Flotante -->
+<div class="absolute bottom-6 left-6 right-6 sm:right-auto bg-surface-container-lowest/95 backdrop-blur-md p-space-md rounded-xl shadow-xl flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">architecture</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary-container font-bold uppercase tracking-wider">Garantía Málaga Colors</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">Coordinación 100% integral</span>
+<span class="font-body-sm text-body-sm text-secondary text-xs">Sin desvíos de presupuesto acordado</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SERVICIOS PRINCIPALES -->
+<section class="w-full py-space-4xl bg-surface-container-lowest">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-3xl gap-space-md">
+<div>
+<div class="inline-flex items-center gap-space-2xs mb-space-2xs">
+<span class="w-1.5 h-5 bg-primary-container rounded-full"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Soluciones Técnicas</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-on-surface tracking-tight">
+            Nuestros servicios principales
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-secondary max-w-md">
+          Especialización sectorizada por oficios y coordinada por directores de obra experimentados en Málaga.
+        </p>
+</div>
+<!-- Grid de 4 tarjetas de servicio -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Servicio 1: Reformas Integrales -->
+<div class="group flex flex-col rounded-xl overflow-hidden bg-surface-container-low hover:bg-surface-container transition-all hover:shadow-xl">
+<div class="h-52 w-full overflow-hidden relative">
+<img alt="Reforma integral salón y cocina de alta gama en Málaga" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfruf35dBhR0L1A-qR6OmKYuKVJTWEovIQav-qdEXKbt-m_mU-Tv-5zu2ZI57uTUrVLuoZnevaKy1HK4VObVfBQBC95Nmz83QGfRcwVBK-CtkjD64wRUO5ZSsGWC0cJW_u6ufudcC28-aHmoAGRad3_glw-qI09au8H2aibHWnSRuPo8sUCdi5Jh7Ozdqe5CtH_zUNqoUMxvZQcXYo6eKFXdsTz-YUA4ZGeN53rypYX2Izb92N4xZN"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-md px-space-xs py-1 rounded text-on-surface font-label-sm text-label-sm uppercase font-bold">
+              Residencial
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-2xs">Reformas integrales</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Transformamos tu vivienda de arriba a abajo. Distribuciones a medida, aislamiento acústico y térmico, instalaciones y acabados de lujo.</p>
+</div>
+<a class="inline-flex items-center gap-space-2xs font-label-md text-label-md uppercase tracking-wider text-primary-container font-semibold hover:text-primary transition-colors" href="#contacto-presupuesto">
+<span>Solicitar visita</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Servicio 2: Cocinas y Baños -->
+<div class="group flex flex-col rounded-xl overflow-hidden bg-surface-container-low hover:bg-surface-container transition-all hover:shadow-xl">
+<div class="h-52 w-full overflow-hidden relative">
+<img alt="Reforma de cocina moderna con isla porcelánica" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd5b3tAT8ONI8mf-bgFOQvPDpZ8_3Ksiyv8gGoCToO32Z45V2340vaFuEvRoU2q4ZLDTk85goLkh6ETnd3pyq6k8xHA2HpULgIhCIOUSty51bu1FBeaXT4svByBUhw9W1_fM-Oj9-lWka4e6UK2d31K0mIo781o4CuehCi7nkvgN5K9j2NqjRypasvNHRcfJtsRmRTbDHnDqCa9xTWDN7PQED1g1onFxqQSsCEh_5F3-VZ_T5Ya-QM"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-md px-space-xs py-1 rounded text-on-surface font-label-sm text-label-sm uppercase font-bold">
+              Diseño &amp; Ergonomía
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-2xs">Cocinas y baños</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Espacios funcionales, cómodos y actuales. Materiales resistentes al uso intensivo, encimeras porcelánicas y grifería empotrada contemporánea.</p>
+</div>
+<a class="inline-flex items-center gap-space-2xs font-label-md text-label-md uppercase tracking-wider text-primary-container font-semibold hover:text-primary transition-colors" href="#contacto-presupuesto">
+<span>Solicitar visita</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Servicio 3: Negocios y Locales -->
+<div class="group flex flex-col rounded-xl overflow-hidden bg-surface-container-low hover:bg-surface-container transition-all hover:shadow-xl">
+<div class="h-52 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Interior of a modern boutique retail store in Málaga Soho with microcement floor, warm spotlights, architectural display shelving, and minimal counter" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_qg-p-HG5oWVh4kh5Kro7wXP_HIW48olP86PYP3jJeknEtzxyETOquwqFSKT75wQxerfyGH3aX6JpGTvCg3vNrOReimBHsY8TQ5ORjPi__pOPEhI68_nlJzCMHu4woPhP3i8PNdjdN1ZecwJ_Aa-SfLmYUGLlw_iWiJ6kqdWECqlrpvub9D-E6xwfFszErq0n_odoYGzJKijbHKrkA3mCrcZHBA11l_4GzjiCIbxQDgFAtpEx0AL4"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-md px-space-xs py-1 rounded text-on-surface font-label-sm text-label-sm uppercase font-bold">
+              Comercial
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-2xs">Reformas para negocios</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Locales listos para trabajar y destacar. Adaptación a normativas municipales, insonorización, retail, hostelería y oficinas con plazos de apertura récord.</p>
+</div>
+<a class="inline-flex items-center gap-space-2xs font-label-md text-label-md uppercase tracking-wider text-primary-container font-semibold hover:text-primary transition-colors" href="#contacto-presupuesto">
+<span>Solicitar visita</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Servicio 4: Fachadas y Comunidades -->
+<div class="group flex flex-col rounded-xl overflow-hidden bg-surface-container-low hover:bg-surface-container transition-all hover:shadow-xl">
+<div class="h-52 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Restored Mediterranean residential building exterior facade in Málaga with pristine white coating, clean balconies, and architectural detail under blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJFcTLNjp0Y6qj-_NOGog7DYvj9tScMwNQ2iuLfpA4h27-spU0uGORKabrg7-rs4uC7fb0FzyaBMS48MbX1ArkGLr11Mbn9CqdBkRdzj36JK4MnXLSQjmdndwB9eF9rzSMGJI8HEoaB2Bbza0al-tOonVdRRIDy5cuWIEurkpGNCnXh26zGXTNfNHsM5Xqc1FNa6W4ivQVjubOvKd2FH13445Blbk96ot4occxSaVBPZQgV9Jr6jqr"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-md px-space-xs py-1 rounded text-on-surface font-label-sm text-label-sm uppercase font-bold">
+              Rehabilitación
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-2xs">Fachadas y comunidades</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Rehabilitación técnica, segura y duradera. Reparación de fisuras estructurales, impermeabilización de cubiertas, pintura exterior y eliminación de barreras.</p>
+</div>
+<a class="inline-flex items-center gap-space-2xs font-label-md text-label-md uppercase tracking-wider text-primary-container font-semibold hover:text-primary transition-colors" href="#contacto-presupuesto">
+<span>Solicitar visita</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. SECCIÓN DE PROYECTOS REALES ANTES / DESPUÉS -->
+<section class="w-full py-space-4xl bg-surface" id="proyectos-reales">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="text-center max-w-3xl mx-auto mb-space-3xl">
+<div class="inline-flex items-center gap-space-2xs mb-space-2xs justify-center">
+<span class="w-1.5 h-5 bg-primary-container rounded-full"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Evidencia Gráfica</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-on-surface tracking-tight mb-space-xs">
+          Mira cómo cambia un espacio cuando se hace bien.
+        </h2>
+<p class="font-body-lg text-body-lg text-secondary">
+          Casos reales en Málaga capital y Costa del Sol con especificaciones de partida, alcances técnicos y resultado final tangible.
+        </p>
+</div>
+<!-- Proyectos Display -->
+<div class="space-y-space-3xl">
+<!-- Proyecto 1: Baño Limonar (Con imagen comparativa Before/After) -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-lg p-space-lg md:p-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-7">
+<div class="relative rounded-xl overflow-hidden shadow-md">
+<img alt="Comparativa antes y después reforma integral de baño en El Limonar Málaga" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqkj36QRLDihsnU0_i-VDE2sjSvShDAn0patlwKIEVswX2w7ZKdhRdVA0QOEmK-phkgReStBS9u72yX-74wG6jldipxRDY5QLuvw4O0F8pHNeVVEgCXzglmLeh9x-BCA8mHtkm5Qu2yYfU82H8sTfQaMY_V0urxy1ItL1o5apc9wFtlAPa7qLJjOAtpZqOUeMZ6g4ijwtctbJW5qu3vALBlr16ImBGw31VzLxoBLegqKQJ_vCmP-M8"/>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col">
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold uppercase">Caso de Éxito · Baño</span>
+<span class="text-secondary font-label-sm text-label-sm">El Limonar, Málaga</span>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold text-on-surface mb-space-sm">
+                Reforma de Baño Principal
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Sustitución de cabina obsoleta y alicatado desgastado por ducha italiana integrada a ras de pavimento continuo, mampara de perfilería negra, mueble suspendido en roble alistonado y espejo retroiluminado.
+              </p>
+<!-- Alcance & Duración -->
+<div class="bg-surface-container-low p-space-md rounded-lg space-y-space-xs mb-space-lg">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-secondary uppercase">Alcance técnico:</span>
+<span class="text-on-surface font-semibold text-right">Fontanería multicapa, alicatado gran formato, iluminación LED</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm pt-space-xs border-t border-surface-variant/30">
+<span class="text-secondary uppercase">Plazo de ejecución:</span>
+<span class="text-primary-container font-bold">12 días laborables (Cumplido)</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-space-xs text-primary-container font-label-md text-label-md uppercase font-bold tracking-wider hover:text-primary transition-colors" href="#contacto-presupuesto">
+<span>Quiero una reforma similar</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Proyecto 2 & 3 en Grid Dual -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl">
+<!-- Proyecto 2: Cocina Teatinos -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-lg flex flex-col">
+<div class="h-64 sm:h-80 w-full overflow-hidden relative">
+<img alt="Cocina abierta al salón con muebles de roble en Teatinos" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd5b3tAT8ONI8mf-bgFOQvPDpZ8_3Ksiyv8gGoCToO32Z45V2340vaFuEvRoU2q4ZLDTk85goLkh6ETnd3pyq6k8xHA2HpULgIhCIOUSty51bu1FBeaXT4svByBUhw9W1_fM-Oj9-lWka4e6UK2d31K0mIo781o4CuehCi7nkvgN5K9j2NqjRypasvNHRcfJtsRmRTbDHnDqCa9xTWDN7PQED1g1onFxqQSsCEh_5F3-VZ_T5Ya-QM"/>
+<div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-space-xs py-1 rounded text-on-surface font-label-sm text-label-sm uppercase font-bold">
+                Teatinos · Málaga
+              </div>
+</div>
+<div class="p-space-xl flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-2xs">Cocina Abierta al Salón con Isla</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Demolición de tabique de separación, isla central con superficie porcelánica con placa de inducción integrada, muebles lacados sin tiradores y extracción oculta de alto caudal.</p>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-xs space-y-1 mb-space-md">
+<p class="text-on-surface-variant"><strong class="text-on-surface font-semibold">Alcance:</strong> Derribo estructural, encimera porcelánica, campana de techo, pavimento unificado.</p>
+<p class="text-on-surface-variant"><strong class="text-on-surface font-semibold">Duración:</strong> 3 semanas completas.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-space-2xs text-primary-container font-label-md text-label-md uppercase font-bold tracking-wider hover:text-primary transition-colors" href="#contacto-presupuesto">
+<span>Pedir presupuesto para cocina</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Proyecto 3: Vivienda Centro Histórico -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-lg flex flex-col">
+<div class="h-64 sm:h-80 w-full overflow-hidden relative">
+<img alt="Salón diáfano con microcemento en Centro Histórico Málaga" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfruf35dBhR0L1A-qR6OmKYuKVJTWEovIQav-qdEXKbt-m_mU-Tv-5zu2ZI57uTUrVLuoZnevaKy1HK4VObVfBQBC95Nmz83QGfRcwVBK-CtkjD64wRUO5ZSsGWC0cJW_u6ufudcC28-aHmoAGRad3_glw-qI09au8H2aibHWnSRuPo8sUCdi5Jh7Ozdqe5CtH_zUNqoUMxvZQcXYo6eKFXdsTz-YUA4ZGeN53rypYX2Izb92N4xZN"/>
+<div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-space-xs py-1 rounded text-on-surface font-label-sm text-label-sm uppercase font-bold">
+                Centro Histórico · Málaga
+              </div>
+</div>
+<div class="p-space-xl flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-2xs">Reforma Integral de Vivienda 110 m²</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Reorganización de planta para optimizar luz natural, carpintería Climalit con rotura de puente térmico, climatización sectorizada Airzone y suelo radiante bajo microcemento continuo.</p>
+<div class="bg-surface-container-low p-space-sm rounded-lg text-xs space-y-1 mb-space-md">
+<p class="text-on-surface-variant"><strong class="text-on-surface font-semibold">Alcance:</strong> Redistribución integral, electricidad domotizada, aerotermia, techos con foso LED.</p>
+<p class="text-on-surface-variant"><strong class="text-on-surface font-semibold">Duración:</strong> 7 semanas con entrega llave en mano.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-space-2xs text-primary-container font-label-md text-label-md uppercase font-bold tracking-wider hover:text-primary transition-colors" href="#contacto-presupuesto">
+<span>Pedir presupuesto integral</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="mt-space-2xl flex flex-col sm:flex-row items-center justify-center gap-space-md">
+<a class="inline-flex items-center justify-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider px-space-xl h-12 rounded shadow-md transition-colors" href="#contacto-presupuesto">
+<span>Pide tu presupuesto</span>
+<span class="material-symbols-outlined text-[18px]">assignment</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md uppercase tracking-wider px-space-lg h-12 rounded transition-colors" href="tel:691810471">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>Consultar por teléfono: 691 81 04 71</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 6. PROCESO DE TRABAJO -->
+<section class="w-full py-space-4xl bg-surface-container-low">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="text-center max-w-2xl mx-auto mb-space-3xl">
+<div class="inline-flex items-center gap-space-2xs mb-space-2xs">
+<span class="w-1.5 h-5 bg-primary-container rounded-full"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Método Paso a Paso</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-on-surface tracking-tight mb-space-xs">
+          Así hacemos que tu reforma sea más sencilla
+        </h2>
+<p class="font-body-md text-body-md text-secondary">
+          Un proceso ordenado para eliminar incertidumbres, retrasos y sobrecostes inesperados.
+        </p>
+</div>
+<!-- 5 Pasos -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-space-md mb-space-2xl">
+<!-- Paso 01 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<span class="font-headline-xl text-headline-xl font-bold text-primary-container block mb-space-2xs">01</span>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-space-2xs">Cuéntanos tu idea</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Nos contactas por formulario, llamada o WhatsApp directo. Escuchamos tus necesidades y prioridades.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/30 flex items-center gap-1 text-secondary text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary-container">schedule</span>
+<span>Respuesta en 24h</span>
+</div>
+</div>
+<!-- Paso 02 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<span class="font-headline-xl text-headline-xl font-bold text-primary-container block mb-space-2xs">02</span>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-space-2xs">Visitamos y medimos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Nos desplazamos a tu vivienda en Málaga sin ningún compromiso para evaluar cotas reales e instalaciones.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/30 flex items-center gap-1 text-secondary text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary-container">straighten</span>
+<span>Visita gratuita</span>
+</div>
+</div>
+<!-- Paso 03 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<span class="font-headline-xl text-headline-xl font-bold text-primary-container block mb-space-2xs">03</span>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-space-2xs">Propuesta clara</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Te entregamos un presupuesto pormenorizado por partidas y calidades, cerrado y sin letra pequeña.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/30 flex items-center gap-1 text-secondary text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary-container">request_quote</span>
+<span>Precio cerrado</span>
+</div>
+</div>
+<!-- Paso 04 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<span class="font-headline-xl text-headline-xl font-bold text-primary-container block mb-space-2xs">04</span>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-space-2xs">Coordinación de obra</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Planificación exhaustiva, calendario de hitos y un único jefe de obra asignado a tu proyecto.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/30 flex items-center gap-1 text-secondary text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary-container">calendar_month</span>
+<span>Seguimiento activo</span>
+</div>
+</div>
+<!-- Paso 05 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<span class="font-headline-xl text-headline-xl font-bold text-primary-container block mb-space-2xs">05</span>
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-space-2xs">Revisión y entrega</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Revisamos contigo cada remate con una checklist exhaustiva antes de firmar la entrega final y garantías.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/30 flex items-center gap-1 text-secondary text-xs">
+<span class="material-symbols-outlined text-[16px] text-primary-container">verified</span>
+<span>Garantía oficial</span>
+</div>
+</div>
+</div>
+<!-- Destacado inferior enmarcado -->
+<div class="bg-surface-container-lowest p-space-lg md:p-space-xl rounded-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[24px]">diversity_3</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm font-bold text-on-surface">Sin perseguir a distintos gremios</p>
+<p class="font-body-sm text-body-sm text-secondary">Un equipo coordinado y sincronizado para responder por el 100% de tu obra.</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider px-space-lg h-11 rounded transition-colors whitespace-nowrap" href="#contacto-presupuesto">
+<span>Iniciar mi consulta</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 7. BLOQUE DE CONFIANZA Y GARANTÍAS -->
+<section class="w-full py-space-4xl bg-inverse-surface text-inverse-on-surface">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="max-w-2xl mb-space-3xl">
+<div class="inline-flex items-center gap-space-2xs mb-space-xs">
+<span class="w-1.5 h-5 bg-primary-container rounded-full"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary-fixed">Tranquilidad Contractual</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-white tracking-tight mb-space-xs">
+          La tranquilidad también forma parte de la reforma.
+        </h2>
+<p class="font-body-lg text-body-lg text-secondary-fixed">
+          Hacemos las cosas bien desde el primer día para que disfrutes del proceso constructivo sin sobresaltos.
+        </p>
+</div>
+<!-- 4 Puntos de Garantía -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg mb-space-2xl">
+<div class="p-space-lg rounded-xl bg-surface-container-highest/10 hover:bg-surface-container-highest/15 transition-colors">
+<span class="material-symbols-outlined text-primary-fixed text-[32px] mb-space-sm block">receipt</span>
+<h3 class="font-title-md text-title-md font-bold text-white mb-space-2xs">Presupuesto por partidas y alcance cerrado</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed">Sabrás con total exactitud qué incluye cada euro invertido, sin partidas ambiguas ni imprevistos inflados.</p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-highest/10 hover:bg-surface-container-highest/15 transition-colors">
+<span class="material-symbols-outlined text-primary-fixed text-[32px] mb-space-sm block">forum</span>
+<h3 class="font-title-md text-title-md font-bold text-white mb-space-2xs">Comunicación continua en obra</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed">Reportes semanales del estado de avance con fotografías y canal directo de WhatsApp con el jefe de proyecto.</p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-highest/10 hover:bg-surface-container-highest/15 transition-colors">
+<span class="material-symbols-outlined text-primary-fixed text-[32px] mb-space-sm block">badge</span>
+<h3 class="font-title-md text-title-md font-bold text-white mb-space-2xs">Profesionales por oficio</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed">Albañiles, fontaneros, instaladores autorizados y pintores especializados con acreditación técnica y seguro RC.</p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-highest/10 hover:bg-surface-container-highest/15 transition-colors">
+<span class="material-symbols-outlined text-primary-fixed text-[32px] mb-space-sm block">rule</span>
+<h3 class="font-title-md text-title-md font-bold text-white mb-space-2xs">Revisión final de acabados</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed">No damos por concluida la intervención hasta que cada junta, pintura y mecanismo cumpla nuestro estándar de calidad.</p>
+</div>
+</div>
+<!-- Nota aclaratoria -->
+<div class="p-space-md rounded-lg bg-surface-container-highest/5 text-center text-xs text-secondary-fixed">
+        * Las condiciones y coberturas de garantía se detallan de forma personalizada y por escrito en cada propuesta técnica formal.
+      </div>
+</div>
+</section>
+<!-- 8. OPINIONES VERIFICADAS -->
+<section class="w-full py-space-4xl bg-surface-container-lowest">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-3xl gap-space-md">
+<div>
+<div class="flex items-center gap-1 text-amber-500 mb-space-2xs">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold ml-2">4,7 / 5 en Google · Más de 75 reseñas</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-on-surface tracking-tight">
+            Clientes que ya han confiado en Málaga Colors
+          </h2>
+</div>
+<a class="inline-flex items-center gap-space-xs text-on-surface font-label-md text-label-md uppercase tracking-wider font-semibold hover:text-primary-container transition-colors" href="https://www.google.com/search?q=malaga+colors+multiservicios" rel="noopener" target="_blank">
+<span>Ver todas las reseñas en Google</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+<!-- 3 Testimonios -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Testimonio 1 -->
+<div class="p-space-xl rounded-2xl bg-surface-container-low flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-0.5 text-amber-500 mb-space-md">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-space-lg italic">
+              "Puntualidad británica y limpieza diaria. Nos reformaron la cocina y el salón abriendo el espacio. Nos dieron ideas buenísimas para ganar almacenaje que ni nos habíamos planteado."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t border-surface-variant/40">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary font-bold flex items-center justify-center text-sm">
+              CM
+            </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Carlos M.</span>
+<span class="font-body-sm text-body-sm text-secondary text-xs">Reforma Integral en Teatinos</span>
+</div>
+</div>
+</div>
+<!-- Testimonio 2 -->
+<div class="p-space-xl rounded-2xl bg-surface-container-low flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-0.5 text-amber-500 mb-space-md">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-space-lg italic">
+              "La tranquilidad de saber que hay un encargado coordinando a todos los gremios. Cumplieron con el presupuesto inicial al céntimo y el acabado del microcemento es de revista."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t border-surface-variant/40">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary font-bold flex items-center justify-center text-sm">
+              ES
+            </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Elena S.</span>
+<span class="font-body-sm text-body-sm text-secondary text-xs">Reforma de Baño y Cocina en El Palo</span>
+</div>
+</div>
+</div>
+<!-- Testimonio 3 -->
+<div class="p-space-xl rounded-2xl bg-surface-container-low flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center gap-0.5 text-amber-500 mb-space-md">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-space-lg italic">
+              "Grandes profesionales. Reformamos un local comercial en el Soho y la velocidad de ejecución y trato cercano fueron inmejorables. Cumplieron la fecha para la inauguración."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-md border-t border-surface-variant/40">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary font-bold flex items-center justify-center text-sm">
+              JR
+            </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-semibold text-on-surface">Javier R.</span>
+<span class="font-body-sm text-body-sm text-secondary text-xs">Local Comercial en Soho Málaga</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. ÁREA DE COBERTURA -->
+<section class="w-full py-space-3xl bg-surface">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="bg-surface-container-lowest p-space-xl md:p-space-2xl rounded-2xl shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-6">
+<div class="inline-flex items-center gap-space-2xs mb-space-2xs">
+<span class="w-1.5 h-5 bg-primary-container rounded-full"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant">Ubicación y Desplazamiento</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-on-surface tracking-tight mb-space-sm">
+              Reformas en Málaga y alrededores
+            </h2>
+<p class="font-body-md text-body-md text-secondary mb-space-lg">
+              Operamos con equipos móviles propios en toda la bahía de Málaga y los principales núcleos de la Costa del Sol. Cuéntanos dónde está tu proyecto y confirmaremos la disponibilidad técnica en menos de 24 horas.
+            </p>
+<!-- Lista de áreas activas -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm">
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">location_on</span>
+<span class="font-body-sm text-body-sm font-semibold">Málaga Capital</span>
+</div>
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">location_on</span>
+<span class="font-body-sm text-body-sm font-semibold">Torremolinos</span>
+</div>
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">location_on</span>
+<span class="font-body-sm text-body-sm font-semibold">Benalmádena</span>
+</div>
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">location_on</span>
+<span class="font-body-sm text-body-sm font-semibold">Fuengirola</span>
+</div>
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">location_on</span>
+<span class="font-body-sm text-body-sm font-semibold">Rincón de la Victoria</span>
+</div>
+<div class="flex items-center gap-space-2xs text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">location_on</span>
+<span class="font-body-sm text-body-sm font-semibold">Alhaurín de la Torre</span>
+</div>
+</div>
+</div>
+<!-- Mapa estilizado de ubicación -->
+<div class="lg:col-span-6">
+<div class="w-full h-72 rounded-xl bg-cover bg-center shadow-inner relative overflow-hidden flex items-end p-space-md" data-location="Malaga, Spain" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCG0eXMsJHSJaMhg3hyxf9UjVhA7v0ZfgZEDPxgYlLMFB6Bpu1l98ce7a-ZyVOwh1LsH4Nvnhxy35Hx8N7wlHJJtqN9pwNQWavXg0cZvCce0HWcAAHDcyEhNjOpnt-aaDBAluWjwsrol5LtdMgX26gJWNe_I1wjLsgh9PqczQIjkC3tJ2MZUXG80K9O7R4TUMFa92Ndtm5Oo9ZlnXCJu7vvZcxb3sPy2EdD4SERsBcUhQW0BnOAwIp2');">
+<div class="bg-surface-container-lowest/90 backdrop-blur-md px-space-md py-space-xs rounded-lg shadow flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold uppercase">Base operativa activa en Málaga</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. CTA FINAL CON FORMULARIO BREVE DE ALTA CONVERSIÓN -->
+<section class="w-full py-space-4xl bg-surface-container-high" id="contacto-presupuesto">
+<div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+<div class="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-2xl">
+<!-- Barra Superior Roja de Acento -->
+<div class="h-3 w-full bg-primary-container"></div>
+<div class="p-space-xl md:p-space-3xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl">
+<!-- Columna Formulario (Cols 1-7) -->
+<div class="lg:col-span-7 flex flex-col">
+<div class="mb-space-xl">
+<span class="font-label-sm text-label-sm text-primary-container uppercase font-bold tracking-wider">Visita técnica sin coste</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl font-bold text-on-surface tracking-tight mt-1">
+                  ¿Hablamos de tu reforma?
+                </h2>
+<p class="font-body-md text-body-md text-secondary mt-1">
+                  Solicita una visita y recibe una propuesta presupuestaria detallada y adaptada a tu espacio en Málaga.
+                </p>
+</div>
+<!-- Formulario Reactivo / Estructurado -->
+<form class="space-y-space-md" onsubmit="event.preventDefault(); alert('¡Gracias! Hemos recibido tu solicitud. Nos pondremos en contacto contigo en un plazo máximo de 24 horas.');">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-medium mb-1">Nombre y apellidos *</label>
+<input class="w-full h-12 px-space-md rounded bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary-container transition-all" placeholder="Ej. Antonio Gómez" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-medium mb-1">Teléfono de contacto *</label>
+<input class="w-full h-12 px-space-md rounded bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary-container transition-all" placeholder="Ej. 691 00 00 00" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-medium mb-1">Correo electrónico</label>
+<input class="w-full h-12 px-space-md rounded bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary-container transition-all" placeholder="nombre@correo.com" type="email"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-medium mb-1">Tipo de proyecto *</label>
+<select class="w-full h-12 px-space-md rounded bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary-container transition-all">
+<option value="integral">Reforma integral de vivienda</option>
+<option value="cocina-bano">Reforma de cocina / baño</option>
+<option value="negocio">Local comercial / negocio</option>
+<option value="fachada">Fachada o comunidad</option>
+<option value="otro">Otra intervención / pintura</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-medium mb-1">Localidad o zona en Málaga *</label>
+<input class="w-full h-12 px-space-md rounded bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary-container transition-all" placeholder="Ej. Teatinos, Centro, Rincón de la Victoria..." required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-medium mb-1">Cuéntanos qué necesitas</label>
+<textarea class="w-full p-space-md rounded bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary-container transition-all" placeholder="Describe brevemente los metros, ideas o plazos que tienes en mente..." rows="3"></textarea>
+</div>
+<div class="flex items-start gap-space-xs">
+<input class="mt-1 rounded text-primary-container focus:ring-primary-container cursor-pointer" id="privacidad" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-secondary cursor-pointer" for="privacidad">
+                    Acepto la política de privacidad y el tratamiento de mis datos para la elaboración del presupuesto.
+                  </label>
+</div>
+<div>
+<button class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider px-space-2xl h-14 rounded shadow-lg transition-all hover:scale-[1.01]" type="submit">
+<span>Quiero mi presupuesto</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+<!-- Columna Contacto Directo Inmediato (Cols 8-12) -->
+<div class="lg:col-span-5 flex flex-col justify-between bg-surface-container-low p-space-xl rounded-2xl">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary-container font-bold">Atención sin esperas</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1 mb-space-sm">
+                  ¿Prefieres atención inmediata?
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-xl">
+                  Si deseas consultar dudas técnicas, disponibilidad de agenda o resolver una urgencia de reforma, llámanos directamente o escríbenos por WhatsApp:
+                </p>
+<!-- Llamada Telefónica -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm mb-space-md flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[22px]">call</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase block">Teléfono Técnico</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">691 81 04 71</span>
+</div>
+</div>
+<a class="inline-flex items-center justify-center bg-inverse-surface text-inverse-on-surface font-label-sm text-label-sm uppercase px-space-md h-10 rounded hover:bg-on-surface transition-colors" href="tel:691810471">
+                    Llamar
+                  </a>
+</div>
+<!-- WhatsApp Directo -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm mb-space-xl flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase block">WhatsApp Directo</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Respuesta ágil</span>
+</div>
+</div>
+<a class="inline-flex items-center justify-center bg-primary-container text-on-primary font-label-sm text-label-sm uppercase px-space-md h-10 rounded hover:bg-primary transition-colors" href="https://wa.me/34691810471" rel="noopener" target="_blank">
+                    Chatear
+                  </a>
+</div>
+</div>
+<!-- Horario y Compromiso -->
+<div class="pt-space-md border-t border-surface-variant/40 text-xs text-secondary space-y-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-on-surface">schedule</span>
+<span><strong>Horario de atención:</strong> Lunes a Viernes de 8:30 a 19:30 h</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-on-surface">home_pin</span>
+<span>Málaga Capital y Costa del Sol</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><div class="fixed bottom-0 left-0 right-0 z-40 bg-surface-container-lowest border-t border-surface-variant px-space-md py-space-xs md:hidden shadow-[0_-2px_12px_rgba(0,0,0,0.06)]"><div class="grid grid-cols-2 gap-space-sm max-w-sm mx-auto"><a class="inline-flex items-center justify-center gap-space-2xs bg-inverse-surface text-inverse-on-surface font-label-md text-label-md uppercase tracking-wider py-2.5 rounded hover:bg-on-surface transition-colors" href="tel:691810471"><span class="material-symbols-outlined text-[18px]">call</span>Llamar</a><a class="inline-flex items-center justify-center gap-space-2xs bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider py-2.5 rounded hover:bg-primary transition-colors" href="https://wa.me/34691810471" rel="noopener" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span>WhatsApp</a></div></div><footer class="w-full bg-inverse-surface text-inverse-on-surface border-t border-surface-variant"><div class="max-w-max-width mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop pt-space-3xl pb-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo Málaga Colors Multiservicios" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA0B2iD8r6MWkJzX201AcGaOWekt277wQjxDYF-ggh2XxXAYaDCIH00qlnNV1e5yYROgUPEBKUG_J4fDJAUHBBiHT40giP5tSTKCrKHWaSu4CtttCWYSp-7pvl4g5it8et37zEOnk095R1WxYqjKmPt0Sgv_KnVS8T9me6OwJf40U6O_Dfq1jnW6UnOIPF94ieVzRs5vOe2zfu5BYjrGFYLR7ali2QFry-UQgslet593soSg2LQF86"/><div class="flex flex-col"><span class="font-title-md text-title-md tracking-tight uppercase font-bold text-white">Málaga Colors</span><span class="font-label-sm text-label-sm text-secondary-fixed tracking-widest uppercase text-[10px]">Multiservicios Integrales</span></div></div><p class="font-body-sm text-body-sm text-secondary-fixed pr-space-lg">Especialistas en reformas integrales de alto estándar técnico y arquitectónico en Málaga capital y provincia. Calidad certificada, plazos rigurosos y presupuestos cerrados sin sobrecostes para viviendas, negocios y comunidades.</p><div class="flex items-center gap-space-sm font-label-sm text-label-sm text-secondary-fixed"><span class="material-symbols-outlined text-[18px] text-primary-fixed">verified</span><span>Licencia técnica y seguro de responsabilidad civil</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><div class="font-label-md text-label-md uppercase tracking-wider text-white border-b border-surface-variant/20 pb-space-xs">Servicios Arquitectónicos</div><ul class="space-y-space-xs font-body-sm text-body-sm text-secondary-fixed"><li class="flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px] text-primary-fixed">arrow_forward</span><span>Reformas Integrales de Viviendas</span></li><li class="flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px] text-primary-fixed">arrow_forward</span><span>Cocinas de Diseño &amp; Baños</span></li><li class="flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px] text-primary-fixed">arrow_forward</span><span>Adecuación de Locales &amp; Oficinas</span></li><li class="flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px] text-primary-fixed">arrow_forward</span><span>Rehabilitación de Fachadas</span></li><li class="flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px] text-primary-fixed">arrow_forward</span><span>Mantenimiento para Comunidades</span></li><li class="flex items-center gap-space-2xs"><span class="material-symbols-outlined text-[14px] text-primary-fixed">arrow_forward</span><span>Pintura Técnica e Impermeabilización</span></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><div class="font-label-md text-label-md uppercase tracking-wider text-white border-b border-surface-variant/20 pb-space-xs">Navegación</div><ul class="space-y-space-xs font-body-sm text-body-sm text-secondary-fixed"><li><a class="hover:text-white transition-colors" data-path="reformas-integrales" href="#">Reformas</a></li><li><a class="hover:text-white transition-colors" data-path="proyectos" href="#">Galería de Proyectos</a></li><li><a class="hover:text-white transition-colors" data-path="opiniones" href="#">Opiniones de Clientes</a></li><li><a class="hover:text-white transition-colors" data-path="contacto" href="#">Solicitar Visita Técnica</a></li><li><a class="hover:text-white transition-colors" href="#presupuesto">Calculador Presupuesto</a></li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><div class="font-label-md text-label-md uppercase tracking-wider text-white border-b border-surface-variant/20 pb-space-xs">Contacto Directo</div><div class="space-y-space-xs font-body-sm text-body-sm text-secondary-fixed"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary-fixed shrink-0 mt-0.5">location_on</span><span>Málaga Capital, Costa del Sol y Provincia</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary-fixed shrink-0">call</span><a class="hover:text-white transition-colors font-semibold text-white" href="tel:691810471">691 81 04 71</a></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary-fixed shrink-0">chat</span><a class="hover:text-white transition-colors" href="https://wa.me/34691810471" rel="noopener" target="_blank">Atención WhatsApp Directa</a></div><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary-fixed shrink-0 mt-0.5">schedule</span><span>Lunes a Viernes: 08:00 – 20:00<br/>Sábados: 09:00 – 14:00</span></div></div></div></div><div class="mt-space-2xl pt-space-md border-t border-surface-variant/10 flex flex-col md:flex-row items-center justify-between gap-space-sm text-secondary-fixed font-label-sm text-label-sm"><div class="text-center md:text-left">© 2025 Málaga Colors Multiservicios. Todos los derechos reservados. Registro y solvencia profesional en Málaga.</div><div class="flex items-center gap-space-md"><a class="hover:text-white transition-colors" data-path="aviso-legal" href="#">Aviso legal</a><a class="hover:text-white transition-colors" data-path="privacidad" href="#">Política de privacidad</a><a class="hover:text-white transition-colors" data-path="cookies" href="#">Política de cookies</a></div></div></div></footer></body></html>
